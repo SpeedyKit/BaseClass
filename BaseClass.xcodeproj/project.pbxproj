@@ -19,6 +19,7 @@
 		D45FE6612278066500BFD756 /* BaseCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE6602278066500BFD756 /* BaseCollectionViewFlowLayout.m */; };
 		D45FE66522780A1F00BFD756 /* BaseReuseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66422780A1F00BFD756 /* BaseReuseDataManager.m */; };
 		D45FE66822780A3400BFD756 /* BaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66722780A3400BFD756 /* BaseDataManager.m */; };
+		D45FE66C22780E4E00BFD756 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66B22780E4E00BFD756 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		D45FE66622780A3400BFD756 /* BaseDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDataManager.h; sourceTree = "<group>"; };
 		D45FE66722780A3400BFD756 /* BaseDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDataManager.m; sourceTree = "<group>"; };
 		D45FE66922780B1E00BFD756 /* BaseCollectionViewFlowLayoutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewFlowLayoutProtocol.h; sourceTree = "<group>"; };
+		D45FE66A22780E4E00BFD756 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D45FE66B22780E4E00BFD756 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		D45FE6532278047A00BFD756 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				D45FE66D22780E5100BFD756 /* Controller */,
 				D45FE65B227804DE00BFD756 /* Object */,
 				D45FE6542278048900BFD756 /* View */,
 			);
@@ -127,6 +131,15 @@
 				D45FE66722780A3400BFD756 /* BaseDataManager.m */,
 			);
 			path = Object;
+			sourceTree = "<group>";
+		};
+		D45FE66D22780E5100BFD756 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE66A22780E4E00BFD756 /* BaseViewController.h */,
+				D45FE66B22780E4E00BFD756 /* BaseViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45FE657227804B100BFD756 /* BaseTableViewCell.m in Sources */,
+				D45FE66C22780E4E00BFD756 /* BaseViewController.m in Sources */,
 				D45FE6422278034E00BFD756 /* ViewController.m in Sources */,
 				D45FE64D2278035400BFD756 /* main.m in Sources */,
 				D45FE66822780A3400BFD756 /* BaseDataManager.m in Sources */,
