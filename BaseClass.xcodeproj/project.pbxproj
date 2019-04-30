@@ -20,7 +20,35 @@
 		D45FE66522780A1F00BFD756 /* BaseReuseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66422780A1F00BFD756 /* BaseReuseDataManager.m */; };
 		D45FE66822780A3400BFD756 /* BaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66722780A3400BFD756 /* BaseDataManager.m */; };
 		D45FE66C22780E4E00BFD756 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE66B22780E4E00BFD756 /* BaseViewController.m */; };
+		D45FE6782278132600BFD756 /* BaseClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE6772278132600BFD756 /* BaseClassTests.m */; };
+		D45FE681227813DF00BFD756 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE680227813DF00BFD756 /* BaseTabBarController.m */; };
+		D45FE684227813FD00BFD756 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE683227813FD00BFD756 /* BaseNavigationController.m */; };
+		D45FE68922782C3000BFD756 /* Test_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE68722782C3000BFD756 /* Test_TabBarController.m */; };
+		D45FE68A22782C3000BFD756 /* Test_TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE68822782C3000BFD756 /* Test_TabBarController.xib */; };
+		D45FE68E22782C4D00BFD756 /* Test_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE68C22782C4D00BFD756 /* Test_NavigationController.m */; };
+		D45FE68F22782C4D00BFD756 /* Test_NavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE68D22782C4D00BFD756 /* Test_NavigationController.xib */; };
+		D45FE69322782C6100BFD756 /* Test_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE69122782C6100BFD756 /* Test_ViewController.m */; };
+		D45FE69422782C6100BFD756 /* Test_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE69222782C6100BFD756 /* Test_ViewController.xib */; };
+		D45FE69922782EE400BFD756 /* Test_DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE69822782EE400BFD756 /* Test_DataManager.m */; };
+		D45FE69C22782EF700BFD756 /* Test_ReuseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE69B22782EF700BFD756 /* Test_ReuseModel.m */; };
+		D45FE6A022782F5500BFD756 /* Test_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE69E22782F5500BFD756 /* Test_TableViewCell.m */; };
+		D45FE6A122782F5500BFD756 /* Test_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE69F22782F5500BFD756 /* Test_TableViewCell.xib */; };
+		D45FE6AB227838A700BFD756 /* Test_CVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE6AA227838A700BFD756 /* Test_CVFlowLayout.m */; };
+		D45FE6AF22783AE900BFD756 /* Test_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE6AD22783AE900BFD756 /* Test_CollectionViewCell.m */; };
+		D45FE6B022783AE900BFD756 /* Test_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE6AE22783AE900BFD756 /* Test_CollectionViewCell.xib */; };
+		D45FE6B422783F3500BFD756 /* Test_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FE6B222783F3500BFD756 /* Test_CollectionViewController.m */; };
+		D45FE6B522783F3500BFD756 /* Test_CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45FE6B322783F3500BFD756 /* Test_CollectionViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45FE67A2278132600BFD756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45FE6322278034E00BFD756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45FE6392278034E00BFD756;
+			remoteInfo = BaseClass;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D45FE63A2278034E00BFD756 /* BaseClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,13 +74,50 @@
 		D45FE66422780A1F00BFD756 /* BaseReuseDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseReuseDataManager.m; sourceTree = "<group>"; };
 		D45FE66622780A3400BFD756 /* BaseDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDataManager.h; sourceTree = "<group>"; };
 		D45FE66722780A3400BFD756 /* BaseDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDataManager.m; sourceTree = "<group>"; };
-		D45FE66922780B1E00BFD756 /* BaseCollectionViewFlowLayoutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewFlowLayoutProtocol.h; sourceTree = "<group>"; };
 		D45FE66A22780E4E00BFD756 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D45FE66B22780E4E00BFD756 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D45FE6752278132600BFD756 /* BaseClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45FE6772278132600BFD756 /* BaseClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseClassTests.m; sourceTree = "<group>"; };
+		D45FE6792278132600BFD756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45FE67F227813DF00BFD756 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		D45FE680227813DF00BFD756 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		D45FE682227813FD00BFD756 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		D45FE683227813FD00BFD756 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		D45FE68622782C3000BFD756 /* Test_TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_TabBarController.h; sourceTree = "<group>"; };
+		D45FE68722782C3000BFD756 /* Test_TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_TabBarController.m; sourceTree = "<group>"; };
+		D45FE68822782C3000BFD756 /* Test_TabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_TabBarController.xib; sourceTree = "<group>"; };
+		D45FE68B22782C4D00BFD756 /* Test_NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_NavigationController.h; sourceTree = "<group>"; };
+		D45FE68C22782C4D00BFD756 /* Test_NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_NavigationController.m; sourceTree = "<group>"; };
+		D45FE68D22782C4D00BFD756 /* Test_NavigationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_NavigationController.xib; sourceTree = "<group>"; };
+		D45FE69022782C6100BFD756 /* Test_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_ViewController.h; sourceTree = "<group>"; };
+		D45FE69122782C6100BFD756 /* Test_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_ViewController.m; sourceTree = "<group>"; };
+		D45FE69222782C6100BFD756 /* Test_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_ViewController.xib; sourceTree = "<group>"; };
+		D45FE69722782EE400BFD756 /* Test_DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_DataManager.h; sourceTree = "<group>"; };
+		D45FE69822782EE400BFD756 /* Test_DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_DataManager.m; sourceTree = "<group>"; };
+		D45FE69A22782EF700BFD756 /* Test_ReuseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_ReuseModel.h; sourceTree = "<group>"; };
+		D45FE69B22782EF700BFD756 /* Test_ReuseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_ReuseModel.m; sourceTree = "<group>"; };
+		D45FE69D22782F5500BFD756 /* Test_TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_TableViewCell.h; sourceTree = "<group>"; };
+		D45FE69E22782F5500BFD756 /* Test_TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_TableViewCell.m; sourceTree = "<group>"; };
+		D45FE69F22782F5500BFD756 /* Test_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_TableViewCell.xib; sourceTree = "<group>"; };
+		D45FE6A9227838A700BFD756 /* Test_CVFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_CVFlowLayout.h; sourceTree = "<group>"; };
+		D45FE6AA227838A700BFD756 /* Test_CVFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_CVFlowLayout.m; sourceTree = "<group>"; };
+		D45FE6AC22783AE900BFD756 /* Test_CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_CollectionViewCell.h; sourceTree = "<group>"; };
+		D45FE6AD22783AE900BFD756 /* Test_CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_CollectionViewCell.m; sourceTree = "<group>"; };
+		D45FE6AE22783AE900BFD756 /* Test_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_CollectionViewCell.xib; sourceTree = "<group>"; };
+		D45FE6B122783F3500BFD756 /* Test_CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_CollectionViewController.h; sourceTree = "<group>"; };
+		D45FE6B222783F3500BFD756 /* Test_CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_CollectionViewController.m; sourceTree = "<group>"; };
+		D45FE6B322783F3500BFD756 /* Test_CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test_CollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D45FE6372278034E00BFD756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45FE6722278132600BFD756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				D45FE63C2278034E00BFD756 /* BaseClass */,
+				D45FE6762278132600BFD756 /* BaseClassTests */,
 				D45FE63B2278034E00BFD756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				D45FE63A2278034E00BFD756 /* BaseClass.app */,
+				D45FE6752278132600BFD756 /* BaseClassTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +150,7 @@
 			children = (
 				D45FE63D2278034E00BFD756 /* AppDelegate.h */,
 				D45FE63E2278034E00BFD756 /* AppDelegate.m */,
+				D45FE68522782BF200BFD756 /* Demo */,
 				D45FE6532278047A00BFD756 /* BaseClass */,
 				D45FE6402278034E00BFD756 /* ViewController.h */,
 				D45FE6412278034E00BFD756 /* ViewController.m */,
@@ -120,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				D45FE662227808C800BFD756 /* BaseReuseViewProtocol.h */,
-				D45FE66922780B1E00BFD756 /* BaseCollectionViewFlowLayoutProtocol.h */,
 				D45FE65C2278051300BFD756 /* BaseResueModel.h */,
 				D45FE65D2278051300BFD756 /* BaseResueModel.m */,
 				D45FE65F2278066500BFD756 /* BaseCollectionViewFlowLayout.h */,
@@ -138,8 +205,84 @@
 			children = (
 				D45FE66A22780E4E00BFD756 /* BaseViewController.h */,
 				D45FE66B22780E4E00BFD756 /* BaseViewController.m */,
+				D45FE67F227813DF00BFD756 /* BaseTabBarController.h */,
+				D45FE680227813DF00BFD756 /* BaseTabBarController.m */,
+				D45FE682227813FD00BFD756 /* BaseNavigationController.h */,
+				D45FE683227813FD00BFD756 /* BaseNavigationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D45FE6762278132600BFD756 /* BaseClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE6772278132600BFD756 /* BaseClassTests.m */,
+				D45FE6792278132600BFD756 /* Info.plist */,
+			);
+			path = BaseClassTests;
+			sourceTree = "<group>";
+		};
+		D45FE68522782BF200BFD756 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE6A82278381300BFD756 /* CollectionViewController */,
+				D45FE6A72278380600BFD756 /* TableViewController */,
+				D45FE69622782EC600BFD756 /* Objects */,
+				D45FE69522782E2000BFD756 /* View */,
+				D45FE68622782C3000BFD756 /* Test_TabBarController.h */,
+				D45FE68722782C3000BFD756 /* Test_TabBarController.m */,
+				D45FE68822782C3000BFD756 /* Test_TabBarController.xib */,
+				D45FE68B22782C4D00BFD756 /* Test_NavigationController.h */,
+				D45FE68C22782C4D00BFD756 /* Test_NavigationController.m */,
+				D45FE68D22782C4D00BFD756 /* Test_NavigationController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D45FE69522782E2000BFD756 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE69D22782F5500BFD756 /* Test_TableViewCell.h */,
+				D45FE69E22782F5500BFD756 /* Test_TableViewCell.m */,
+				D45FE69F22782F5500BFD756 /* Test_TableViewCell.xib */,
+				D45FE6AC22783AE900BFD756 /* Test_CollectionViewCell.h */,
+				D45FE6AD22783AE900BFD756 /* Test_CollectionViewCell.m */,
+				D45FE6AE22783AE900BFD756 /* Test_CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D45FE69622782EC600BFD756 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE69722782EE400BFD756 /* Test_DataManager.h */,
+				D45FE69822782EE400BFD756 /* Test_DataManager.m */,
+				D45FE69A22782EF700BFD756 /* Test_ReuseModel.h */,
+				D45FE69B22782EF700BFD756 /* Test_ReuseModel.m */,
+				D45FE6A9227838A700BFD756 /* Test_CVFlowLayout.h */,
+				D45FE6AA227838A700BFD756 /* Test_CVFlowLayout.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D45FE6A72278380600BFD756 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE69022782C6100BFD756 /* Test_ViewController.h */,
+				D45FE69122782C6100BFD756 /* Test_ViewController.m */,
+				D45FE69222782C6100BFD756 /* Test_ViewController.xib */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		D45FE6A82278381300BFD756 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D45FE6B122783F3500BFD756 /* Test_CollectionViewController.h */,
+				D45FE6B222783F3500BFD756 /* Test_CollectionViewController.m */,
+				D45FE6B322783F3500BFD756 /* Test_CollectionViewController.xib */,
+			);
+			path = CollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +305,24 @@
 			productReference = D45FE63A2278034E00BFD756 /* BaseClass.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D45FE6742278132600BFD756 /* BaseClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45FE67C2278132600BFD756 /* Build configuration list for PBXNativeTarget "BaseClassTests" */;
+			buildPhases = (
+				D45FE6712278132600BFD756 /* Sources */,
+				D45FE6722278132600BFD756 /* Frameworks */,
+				D45FE6732278132600BFD756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45FE67B2278132600BFD756 /* PBXTargetDependency */,
+			);
+			name = BaseClassTests;
+			productName = BaseClassTests;
+			productReference = D45FE6752278132600BFD756 /* BaseClassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,6 +334,10 @@
 				TargetAttributes = {
 					D45FE6392278034E00BFD756 = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					D45FE6742278132600BFD756 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D45FE6392278034E00BFD756;
 					};
 				};
 			};
@@ -190,6 +355,7 @@
 			projectRoot = "";
 			targets = (
 				D45FE6392278034E00BFD756 /* BaseClass */,
+				D45FE6742278132600BFD756 /* BaseClassTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,9 +365,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45FE69422782C6100BFD756 /* Test_ViewController.xib in Resources */,
+				D45FE68F22782C4D00BFD756 /* Test_NavigationController.xib in Resources */,
+				D45FE6B522783F3500BFD756 /* Test_CollectionViewController.xib in Resources */,
 				D45FE64A2278035400BFD756 /* LaunchScreen.storyboard in Resources */,
+				D45FE6B022783AE900BFD756 /* Test_CollectionViewCell.xib in Resources */,
+				D45FE68A22782C3000BFD756 /* Test_TabBarController.xib in Resources */,
 				D45FE6472278035400BFD756 /* Assets.xcassets in Resources */,
 				D45FE6452278034E00BFD756 /* Main.storyboard in Resources */,
+				D45FE6A122782F5500BFD756 /* Test_TableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45FE6732278132600BFD756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,19 +392,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45FE657227804B100BFD756 /* BaseTableViewCell.m in Sources */,
+				D45FE69922782EE400BFD756 /* Test_DataManager.m in Sources */,
+				D45FE68E22782C4D00BFD756 /* Test_NavigationController.m in Sources */,
+				D45FE69322782C6100BFD756 /* Test_ViewController.m in Sources */,
 				D45FE66C22780E4E00BFD756 /* BaseViewController.m in Sources */,
+				D45FE69C22782EF700BFD756 /* Test_ReuseModel.m in Sources */,
+				D45FE6B422783F3500BFD756 /* Test_CollectionViewController.m in Sources */,
 				D45FE6422278034E00BFD756 /* ViewController.m in Sources */,
+				D45FE68922782C3000BFD756 /* Test_TabBarController.m in Sources */,
 				D45FE64D2278035400BFD756 /* main.m in Sources */,
+				D45FE681227813DF00BFD756 /* BaseTabBarController.m in Sources */,
+				D45FE684227813FD00BFD756 /* BaseNavigationController.m in Sources */,
 				D45FE66822780A3400BFD756 /* BaseDataManager.m in Sources */,
+				D45FE6AB227838A700BFD756 /* Test_CVFlowLayout.m in Sources */,
+				D45FE6AF22783AE900BFD756 /* Test_CollectionViewCell.m in Sources */,
 				D45FE6612278066500BFD756 /* BaseCollectionViewFlowLayout.m in Sources */,
 				D45FE65E2278051300BFD756 /* BaseResueModel.m in Sources */,
 				D45FE66522780A1F00BFD756 /* BaseReuseDataManager.m in Sources */,
 				D45FE65A227804C600BFD756 /* BaseCollectionViewCell.m in Sources */,
 				D45FE63F2278034E00BFD756 /* AppDelegate.m in Sources */,
+				D45FE6A022782F5500BFD756 /* Test_TableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45FE6712278132600BFD756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45FE6782278132600BFD756 /* BaseClassTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45FE67B2278132600BFD756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45FE6392278034E00BFD756 /* BaseClass */;
+			targetProxy = D45FE67A2278132600BFD756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D45FE6432278034E00BFD756 /* Main.storyboard */ = {
@@ -395,6 +601,44 @@
 			};
 			name = Release;
 		};
+		D45FE67D2278132600BFD756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB834M3BNU;
+				INFOPLIST_FILE = BaseClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanYi.BaseClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseClass.app/BaseClass";
+			};
+			name = Debug;
+		};
+		D45FE67E2278132600BFD756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB834M3BNU;
+				INFOPLIST_FILE = BaseClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanYi.BaseClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseClass.app/BaseClass";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +656,15 @@
 			buildConfigurations = (
 				D45FE6512278035400BFD756 /* Debug */,
 				D45FE6522278035400BFD756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45FE67C2278132600BFD756 /* Build configuration list for PBXNativeTarget "BaseClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45FE67D2278132600BFD756 /* Debug */,
+				D45FE67E2278132600BFD756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

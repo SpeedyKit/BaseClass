@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseDataManager : NSObject
 
-@property(nonatomic, strong) NSMutableArray <NSArray <BaseResueModel *>*>*dataSource;
+//@property(nonatomic, strong) NSMutableArray <NSArray <BaseResueModel *>*>*dataSource;
 
 @end
 

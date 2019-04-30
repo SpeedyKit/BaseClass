@@ -14,11 +14,5 @@
     
 }
 
-- (NSMutableArray<NSArray<BaseResueModel *> *> *)reuseDataSource {
-    if (_reuseDataSource == nil) {
-        _reuseDataSource = [NSMutableArray new];
-    }
-    return _reuseDataSource;
-}
 
 @end

@@ -10,11 +10,11 @@
 
 @implementation BaseDataManager
 
-- (NSMutableArray<NSArray<BaseResueModel *> *> *)dataSource {
-    if (_dataSource == nil) {
-        _dataSource = [NSMutableArray new];
-    }
-    return _dataSource;
-}
+//- (NSMutableArray<NSArray<BaseResueModel *> *> *)dataSource {
+//    if (_dataSource == nil) {
+//        _dataSource = [NSMutableArray new];
+//    }
+//    return _dataSource;
+//}
 
 @end

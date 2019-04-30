@@ -7,16 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseCollectionViewFlowLayoutProtocol.h"
-
+#import "BaseResueModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 
+@protocol BaseCVFlowLayoutDelegate <NSObject>
+
+- (BaseResueModel *)flowLayout:(id)flowLayout reuseModelAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
 
 @interface BaseCollectionViewFlowLayout : UICollectionViewFlowLayout
 
-@property(nonatomic, weak) id  <BaseCollectionViewFlowLayoutProtocol> delegate;
+@property(nonatomic, weak) id  <BaseCVFlowLayoutDelegate> delegate;
 
 @end
 

@@ -13,7 +13,6 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol BaseReuseViewProtocol <NSObject>
 
 @optional
-
 - (void)updateUIWithModel:(BaseResueModel *)model;
 
 @end

@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseReuseDataManager : BaseDataManager
 
-@property(nonatomic, strong) NSMutableArray <NSArray <BaseResueModel *>*>*reuseDataSource;
+//@property(nonatomic, strong) NSMutableArray <NSArray <BaseResueModel *>*>*reuseDataSource;
 
 - (void)configReuseDataWithSource:(id)source;
 
